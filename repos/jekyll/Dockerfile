@@ -36,7 +36,7 @@ ENV JEKYLL_ENV=development
 
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US:en
-ENV TZ=America/Chicago
+ENV TZ=Asia/Kolkata
 ENV PATH="$JEKYLL_BIN:$PATH"
 ENV LC_ALL=en_US.UTF-8
 ENV LANG=en_US.UTF-8
