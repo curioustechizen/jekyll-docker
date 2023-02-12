@@ -28,3 +28,7 @@ jobs:
         env:
           RUBYOPT: "-W0"
           DOCKER_REPO: "${{join(matrix.env, ' ')}}"
+      - name: Upload image
+        uses: ishworkh/docker-image-artifact-upload@v1
+        with:
+          image: "$DOCKER_REPO:latest" 
