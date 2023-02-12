@@ -36,6 +36,8 @@ ENV JEKYLL_ENV=development
 
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US:en
+
+# Changed the time zone because it impacts the URL generated for blog posts
 ENV TZ=Asia/Kolkata
 ENV PATH="$JEKYLL_BIN:$PATH"
 ENV LC_ALL=en_US.UTF-8
